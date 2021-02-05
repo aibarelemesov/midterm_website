@@ -1,0 +1,202 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.img_main {
+  width: 100vw;
+  height: 100vh;
+  /*background-size: cover;*/
+}
+
+a, p, h5, h2 {
+  font-family: 'Lexend Mega', sans-serif;
+  color:white;
+}
+
+h5 {
+  margin-left: 5vh;
+}
+
+.alena {
+  color: white;
+}
+
+.alena:hover {
+  color:#cccccc;
+}
+
+.collazh {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  /*background-color: gray;*/
+  margin-top: 5vh;
+  /*padding-left: 5vw;*/
+/*padding-right: 5vw;*/
+}
+
+.firstrow {
+  margin-left: 2.5vw;
+  display: inline-block;
+  margin-right: 0.5vw;
+}
+
+.strow.one {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6411f004-021f-4424-9b17-41868a6f5e4a/debf5uz-44341770-c29c-4917-9172-5f9e4366bee3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjQxMWYwMDQtMDIxZi00NDI0LTliMTctNDE4NjhhNmY1ZTRhXC9kZWJmNXV6LTQ0MzQxNzcwLWMyOWMtNDkxNy05MTcyLTVmOWU0MzY2YmVlMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.0pwS6GynjAFK0XSsJ5FpwXSlMxyh-R4tW_-ufqOR99A);
+}
+
+.firstrow:hover .text{
+opacity: 1;
+}
+
+.ndrow:hover .text{
+opacity: 1;
+}
+
+.rdrow:hover .text{
+opacity: 1;
+}
+
+.rdrowone:hover .text{
+opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  opacity: 0;
+}
+
+
+.strow.two {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b9c0fb0d-dbb2-43e9-b47e-deb1eb0c6572/dec8phi-9934260a-4e14-4e93-8c94-1bf59d9855a6.jpg/v1/fill/w_1154,h_692,q_70,strp/the_lake_by_quacx3_dec8phi-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03NjgiLCJwYXRoIjoiXC9mXC9iOWMwZmIwZC1kYmIyLTQzZTktYjQ3ZS1kZWIxZWIwYzY1NzJcL2RlYzhwaGktOTkzNDI2MGEtNGUxNC00ZTkzLThjOTQtMWJmNTlkOTg1NWE2LmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.o2BUpNXgcBcyS6Gj8EA4Gc_nN4HvtBQZ01r7vC6Lhbo);
+  background-position: center;
+}
+
+.strow.three {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eb5ae1bb-cac9-4f54-8bc5-8c235aed7449/dec6ab1-542ae29b-dd28-48e2-a984-163e2860144f.jpg/v1/fill/w_1280,h_910,q_75,strp/van_gogh_s_wheat_field_with_cypresses_by_liskaflower_dec6ab1-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD05MTAiLCJwYXRoIjoiXC9mXC9lYjVhZTFiYi1jYWM5LTRmNTQtOGJjNS04YzIzNWFlZDc0NDlcL2RlYzZhYjEtNTQyYWUyOWItZGQyOC00OGUyLWE5ODQtMTYzZTI4NjAxNDRmLmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.eD4OofDRIMebs5mz5OSa_sR8GLqdHd3f5vFl2UAJkOc);
+}
+
+.strow {
+  background-size: cover;
+  /*background-color: red;*/
+  width: 20vw;
+  height: 30vh;
+  margin-bottom: 1vh;
+  transition: transform .2s;
+}
+
+.strow:hover {
+  transform: scale(1.25);
+  box-shadow: 10px 10px 30px black;
+  /*border: 5px solid black;
+  box-sizing: border-box;*/
+}
+
+.secondrow {
+  display: inline-block;
+  margin-right: 0.5vw;
+}
+
+.ndrow.one {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b29dfc3f-cf47-484a-b643-39ac2804efab/dah5sn4-51ca4542-5a3c-4882-b5f4-1c8783ea2c07.jpg/v1/fill/w_1024,h_656,q_75,strp/overgrowth_by_minks_art_dah5sn4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02NTYiLCJwYXRoIjoiXC9mXC9iMjlkZmMzZi1jZjQ3LTQ4NGEtYjY0My0zOWFjMjgwNGVmYWJcL2RhaDVzbjQtNTFjYTQ1NDItNWEzYy00ODgyLWI1ZjQtMWM4NzgzZWEyYzA3LmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.XeC_YtvDYwOwSdkhVSgSCB7OUwm4cov7CpVCbr5PtMU);
+}
+
+.ndrow.two {
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/018/357/216/large/alena-aenami-horizon-1k.jpg?1559071156");
+}
+
+.ndrow {
+  /*background-image: url("horizon-city-4k-rd-3840x2400.jpg");*/
+  background-size: cover;
+  /*background-color: red;*/
+  height: 45.5vh;
+  width: 30vw;
+  margin-bottom: 1vh;
+  transition: transform .2s;
+}
+
+.ndrow:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 30px black;
+  /*border: 5px solid black;
+  box-sizing: border-box;*/
+}
+
+.thirdrow {
+  display: inline-block;
+}
+
+.rdrow.one {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/72253e1d-d85a-447a-8533-6c153ef282e8/debtmn8-26b44d4c-8059-4a7d-bcbe-409523f94d07.jpg/v1/fill/w_1280,h_805,q_75,strp/octopus_by_annick_debtmn8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD04MDUiLCJwYXRoIjoiXC9mXC83MjI1M2UxZC1kODVhLTQ0N2EtODUzMy02YzE1M2VmMjgyZThcL2RlYnRtbjgtMjZiNDRkNGMtODA1OS00YTdkLWJjYmUtNDA5NTIzZjk0ZDA3LmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.QrWw8kTnU91DhdTg3X0Er10aJjNYETnpccyE6DnyIHs);
+}
+
+.rdrowone.two {
+
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/023f46e8-bc77-48ad-9eb7-40e9061c8335/de92fz7-b8fc5091-fe29-4a42-a2cb-fc040a03e441.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDIzZjQ2ZTgtYmM3Ny00OGFkLTllYjctNDBlOTA2MWM4MzM1XC9kZTkyZno3LWI4ZmM1MDkxLWZlMjktNGE0Mi1hMmNiLWZjMDQwYTAzZTQ0MS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.W2OWgrT7nm_bf_OkNlolmyrsMM8aUZvggg9MR89-3n0);
+}
+
+.rdrowone.three {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2b20731b-c5cc-478f-89fb-1144dae59b4c/ddco802-08c091ea-7f5b-411c-bb9a-4a4b8c161d9f.png/v1/fill/w_1192,h_670,q_70,strp/riftflower_by_brillick_ddco802-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD05MDAiLCJwYXRoIjoiXC9mXC8yYjIwNzMxYi1jNWNjLTQ3OGYtODlmYi0xMTQ0ZGFlNTliNGNcL2RkY284MDItMDhjMDkxZWEtN2Y1Yi00MTFjLWJiOWEtNGE0YjhjMTYxZDlmLnBuZyIsIndpZHRoIjoiPD0xNjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.hvFmLhFD2TA-tVLfXcqjuNDAq98UTnThRERBfOL8o60);
+  background-position: center;
+}
+
+
+.rdrow {
+  /*background-image: url("horizon-city-4k-rd-3840x2400.jpg");*/
+  background-size: cover;
+  /*background-color: red;*/
+  width: 44vw;
+  height: 45.5vh;
+  margin-bottom: 1vh;
+  transition: transform .2s;
+}
+
+.rdrow:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 30px black;
+  /*border: 5px solid black;*/
+  /*box-sizing: border-box;*/
+}
+
+.rdrowone {
+  display: inline-block;
+
+  background-size: cover;
+  /*background-color: red;*/
+  width: 21.65vw;
+  height: 45.5vh;
+  margin-bottom: 1vh;
+  margin-right: 0.5vw;
+  transition: transform .2s;
+}
+
+.endlinks {
+  width: 100vw;
+  height: 18vh;
+  background-color: #070B26;
+  text-align: center;
+}
+
+.contacts {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.contacts:hover {
+
+  color: #cccccc;
+}
+
+.rdrowone:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 30px black;
+  /*border: 5px solid black;*/
+/*box-sizing: border-box;*/
+}
